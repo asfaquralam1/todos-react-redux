@@ -6,8 +6,8 @@ import {
 
 //states
 const initailTodosState = {
-  todos: [],
   isLoading: false,
+  todos: [],
   error: null,
 };
 

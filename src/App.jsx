@@ -6,7 +6,7 @@ import { useSelector } from "react-redux";
 import Counter from "./component/counter";
 import Todos from "./component/Todos";
 function App() {
-  const count = useSelector((state) => state.count);
+  // const count = useSelector((state) => state.count);
   return (
     <>
       <div>
@@ -17,26 +17,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      {/* <Counter /> */}
       <Todos />
-      {/* <h1>Vite + React</h1> */}
-      {/* <div className="card">
-        <h2>Counter App</h2>
-        <h3> count is {count}</h3>
-        <button onClick={() => setCount((count) => count + 1)}>
-          Increment
-        </button>
-        <button onClick={() => setCount((count) => (count = 0))}>Reset</button>
-        <button onClick={() => setCount((count) => count - 1)}>
-          Decrement
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div> */}
-      {/* <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p> */}
     </>
   );
 }
